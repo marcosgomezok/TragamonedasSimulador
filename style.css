@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(184, 25, 25);
+background-image: url(./tm-img/fondo.jpg);
+  background-size: 100% auto;
+}
+.slot-machine {
+  text-align: center;
+}
+.slot img{
+  background-image: url(./tm-img/velocidad.jpg);
+  background-size: auto;
+}
+
+.slot {
+  display: inline-block;
+  position:relative;
+  width: 15%;
+  background-color: goldenrod;
+  padding: 8px;
+  bottom: 15%;
+}
+.slot img{
+  width: 100%;
+}
+
+.lastslot img{
+  background-size: auto 50%;
+  cursor: pointer;
+}
+
+.lastslot {
+  padding: 8px;
+  display: inline-block;
+  width: 18%;
+  margin-top: 50px;
+}
+.lastslot img{
+  width: 100%;
+}
+
+.contenedorslot{
+  margin-top: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 500px;
+  background: url(./tm-img/maquina.png) no-repeat;
+  background-size: 100% auto;
+}
